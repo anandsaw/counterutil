@@ -26,7 +26,7 @@ public class CounterSingleton {
 			this.counter.put(name, count + 1);
 
 		} else {
-			this.counter.put(name, 1);
+			this.counter.put(name, 2);
 		}
 		System.out.println(this.counter.get("a"));
 	}
