@@ -16,6 +16,8 @@ public class CounterSingleton {
 	public static CounterSingleton getInstance() {
 		if (instance == null) {
 			instance = new CounterSingleton();
+		} else {
+			
 		}
 		return instance;
 	}
@@ -27,6 +29,7 @@ public class CounterSingleton {
 
 		} else {
 			this.counter.put(name, 1);
+			System.out.println("hello");
 		}
 		System.out.println(this.counter.get("a"));
 	}
