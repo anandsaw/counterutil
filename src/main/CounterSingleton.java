@@ -16,6 +16,8 @@ public class CounterSingleton {
 	public static CounterSingleton getInstance() {
 		if (instance == null) {
 			instance = new CounterSingleton();
+		} else {
+			
 		}
 		return instance;
 	}
